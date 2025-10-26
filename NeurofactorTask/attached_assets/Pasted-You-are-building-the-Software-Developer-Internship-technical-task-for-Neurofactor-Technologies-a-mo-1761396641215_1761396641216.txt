@@ -1,0 +1,78 @@
+You are building the Software Developer Internship technical task for Neurofactor Technologies: a mobile-responsive React.js web application that exactly replicates the "Cafe Italian" Figma design.
+
+🎯 PROJECT REQUIREMENTS
+• Build using React.js (functional components + hooks)
+• Fully mobile-responsive (mobile-first)
+• Pixel-accurate implementation of the Figma design (layout, spacing, fonts, colors)
+• Smooth CSS-only animations (transitions/keyframes)
+• Performance optimized for mobile (fast load, smooth animations)
+• No heavy UI frameworks for layout (build components manually)
+• Deploy version that runs in production
+
+📌 WHAT YOU MUST DELIVER **INSIDE REPLIT**
+1️⃣ A complete React.js project folder with:
+   - Organized component structure
+   - Clean + maintainable code
+   - Optimized images (WebP or responsive)
+   - Accessible + semantic HTML
+
+2️⃣ High-performance CSS animations:
+   - Hover effects
+   - Load-in / scroll animations
+   - CTA button micro-interactions
+   (Use transform + opacity for performance)
+
+3️⃣ Full responsiveness:
+   - Mobile-first design approach
+   - Valid across breakpoints: ≤375px, 768px, 1024px+
+
+✅ PERFORMANCE CHECKLIST
+- Optimize bundle size
+- Avoid unnecessary re-renders
+- Use lazy loading for below-the-fold images/components
+- 60fps animations on mobile devices
+- Lighthouse Performance target >= 80 (mobile)
+
+🧩 CODE STRUCTURE
+Follow a modular file tree such as:
+src/
+ ├─ components/
+ │   ├─ Navbar.jsx
+ │   ├─ Hero.jsx
+ │   ├─ MenuCard.jsx
+ │   ├─ Footer.jsx
+ ├─ pages/
+ │   └─ Home.jsx
+ ├─ assets/ (images/icons)
+ ├─ styles/ (global + component CSS)
+ ├─ App.jsx
+ └─ main.jsx
+
+📄 README MUST INCLUDE:
+• How to run the app (dev/build commands)
+• Live deployment link
+• Notes on performance optimizations
+• Any minor design deviations (if necessary)
+
+🎬 IMPLEMENTATION HINTS
+• Use CSS variables for palette + spacing
+• Use semantic HTML tag structure
+• Use `prefers-reduced-motion` fallback
+• GPU-accelerated transforms for animations
+• Keep text readable + high-contrast on mobile
+
+✅ ACCEPTANCE CRITERIA (self-check before submitting)
+- [ ] Layout matches Figma at mobile + desktop sizes
+- [ ] Animations done with pure CSS only
+- [ ] Smooth performance and fast loading
+- [ ] Fully responsive components
+- [ ] Project runs without errors on first open
+
+📌 Your first task:
+➜ Generate a component list + file tree plan.
+Then build out the full project step-by-step inside Replit.
+
+After the build is complete:
+➜ Provide instructions to deploy the site and then help generate the README.
+
+Reply: ✅ “Plan Ready” when you understand, then show the file tree + component plan.
